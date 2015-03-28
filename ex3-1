@@ -1,0 +1,8 @@
+my @strings;
+while(<STDIN>){
+	push @strings, $_;
+}
+@strings = reverse @strings;
+foreach(@strings){
+	print $_;
+}

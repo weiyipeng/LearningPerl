@@ -1,0 +1,9 @@
+chomp (my @in = <STDIN>);
+@in = sort @in;
+foreach (@in) {
+	print $_.' ';
+}
+print "\n";
+foreach (@in) {
+	print $_."\n";
+}

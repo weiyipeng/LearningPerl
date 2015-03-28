@@ -1,0 +1,6 @@
+print "input string: ";
+my $string = <STDIN>;
+print "input number: ";
+my $num = <STDIN>;
+$result = $string x $num;
+print "$result";

@@ -1,0 +1,4 @@
+my $a = <STDIN>;
+my $b = <STDIN>;
+my $c = $a * $b;
+print "$c\n";

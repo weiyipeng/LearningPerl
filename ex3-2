@@ -1,0 +1,8 @@
+my @name_list = (fred, betty, barney, dino, wilma, pebbls, bamm-bamm);
+my @idx = <STDIN>;
+
+foreach(@idx){
+	print $name_list[$_ - 1].' ';
+}
+print "\n";
+

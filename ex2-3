@@ -1,0 +1,6 @@
+my $pi = 3.141592654;
+print "Please input radius";
+my $radius = <STDIN>;
+$radius = 0 if($radius < 0);
+my $diameter = 2 * $pi * $radius;
+print "diameter $diameter\n";
